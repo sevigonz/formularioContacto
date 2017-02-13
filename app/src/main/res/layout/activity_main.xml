@@ -16,6 +16,14 @@
         android:id="@+id/f_c_nombre_completo"
         android:hint="@string/nombre_completo" />
 
+    <TextView
+        android:text="@string/fecha_nacimiento"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="16dp" />
+
     <DatePicker
         android:layout_width="match_parent"
         android:layout_height="202dp"
