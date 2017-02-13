@@ -18,9 +18,9 @@
 
     <DatePicker
         android:layout_width="match_parent"
-        android:layout_height="96dp"
+        android:layout_height="202dp"
         android:id="@+id/f_c_fecha_nacimiento"
-        android:layout_weight="0.72" />
+        android:datePickerMode="spinner" />
 
     <EditText
         android:layout_width="match_parent"
@@ -44,7 +44,7 @@
         android:inputType="textMultiLine"
         android:ems="10"
         android:id="@+id/f_c_descripcion_contacto"
-        android:layout_weight="0.27"
+        android:layout_weight="0.70"
         android:hint="@string/descripcion_contacto" />
 
     <Button
