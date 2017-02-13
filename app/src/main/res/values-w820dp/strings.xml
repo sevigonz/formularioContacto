@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Formulario Contacto</string>
+    <string name="form_username">Username</string>
+    <string name="nombre_completo">Nombre completo</string>
+    <string name="email">Email</string>
+    <string name="telefono">Teléfono</string>
+    <string name="fecha_nacimiento">Fecha nacimiento</string>
+    <string name="descripcion_contacto">Descripción contacto</string>
+
+    <string name="temail">Email: </string>
+    <string name="ttelefono">Teléfono: </string>
+    <string name="tfecha_nacimiento">Fecha nacimiento: </string>
+    <string name="tdescripcion">Descripción: </string>
+
+
+    <string name="buton_siguiente">Siguiente</string>
+    <string name="editar_contacto">Editar datos</string>
+    <string name="confirmar_datos">Confirmar Datos</string>
+</resources>

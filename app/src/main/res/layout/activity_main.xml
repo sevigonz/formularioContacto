@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear_layout_contact_form"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/activity_horizontal_margin"
+    android:weightSum="1">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/f_c_nombre_completo"
+        android:hint="@string/nombre_completo" />
+
+    <DatePicker
+        android:layout_width="match_parent"
+        android:layout_height="96dp"
+        android:id="@+id/f_c_fecha_nacimiento"
+        android:layout_weight="0.72" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/f_c_telefono"
+        android:hint="@string/telefono" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/f_c_email"
+        android:hint="@string/email" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textMultiLine"
+        android:ems="10"
+        android:id="@+id/f_c_descripcion_contacto"
+        android:layout_weight="0.27"
+        android:hint="@string/descripcion_contacto" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/f_c_enviar_contacto"
+        android:text="@string/buton_siguiente"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button"
+        android:layout_gravity="bottom" />
+</LinearLayout>
